@@ -10,13 +10,13 @@ body {
 }
 
 header {
-    padding: 25px 0;
+	padding: 25px 0;
+	letter-spacing: 1px;
     
 }
 
 .container {
     margin-bottom: 50px;
-    
 }
 
 .basearch {
@@ -42,19 +42,24 @@ input::placeholder {
 	color: #c2c2c2;
 }
 
+input::-ms-clear {
+    width : 0;
+  	height: 0;
+}
+
 
 h2 {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: 800;
+	letter-spacing: 1px;
 }
 
 .people, .popular, .recent {
 	display: inline-block;
 	font-size: 0px;
 	width: 30.5%;
-    vertical-align: top;
-    
+	vertical-align: top;
 }
 
 .popular,
@@ -69,7 +74,7 @@ h2 {
 
 .container a {
 	text-decoration: none;
-	color: #c2c2c2;
+	color: #adadad;
 	display: block;
 }
 .container a:hover {
